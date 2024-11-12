@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "万象工具Pro",
+  "usingComponents": {
+    "page-home": "/page/component/home",
+    "page-classify": "/page/component/classify",
+    "page-myself": "/page/component/myself"
+  }
+}

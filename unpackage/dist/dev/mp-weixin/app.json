@@ -1,0 +1,23 @@
+{
+  "pages": [
+    "page/index/index"
+  ],
+  "subPackages": [
+    {
+      "root": "tools",
+      "pages": [
+        "image/photo_compression",
+        "image/wallpaper"
+      ]
+    }
+  ],
+  "window": {
+    "navigationStyle": "custom",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "万象工具Pro",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "__usePrivacyCheck__": true,
+  "usingComponents": {}
+}

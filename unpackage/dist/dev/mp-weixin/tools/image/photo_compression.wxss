@@ -1,0 +1,368 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* uni.scss */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+/* 添加样式 */
+/* 禁用滚动条 */
+.page-classify.data-v-4c51e7d3 {
+  overflow: hidden;
+  /* 禁用滚动条 */
+  height: 100vh;
+  /* 设置高度为视口高度 */
+}
+/* 胶囊*/
+.tn-custom-nav-bar__back.data-v-4c51e7d3 {
+  width: 60%;
+  height: 100%;
+  position: relative;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  box-sizing: border-box;
+  background-color: rgba(0, 0, 0, 0.15);
+  border-radius: 1000rpx;
+  border: 1rpx solid rgba(255, 255, 255, 0.5);
+  color: #FFFFFF;
+  font-size: 18px;
+}
+.tn-custom-nav-bar__back .icon.data-v-4c51e7d3 {
+  display: block;
+  flex: 1;
+  margin: auto;
+  text-align: center;
+}
+.menu.data-v-4c51e7d3 {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.image-selector.data-v-4c51e7d3 {
+  margin-top: 50px;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  border: 2px dashed #acacac;
+  /* 默认边框 */
+  border-radius: 30rpx;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  /* 使子元素绝对定位相对于此元素 */
+}
+.image-selector image.data-v-4c51e7d3 {
+  width: 100%;
+  /* 占满父元素 */
+  height: 100%;
+  /* 占满父元素 */
+  position: absolute;
+  /* 绝对定位 */
+  top: 0;
+  /* 顶部对齐 */
+  left: 0;
+  /* 左侧对齐 */
+}
+.afterCompressClass.data-v-4c51e7d3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.imageSelectorClass.data-v-4c51e7d3 {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  /* 默认边框 */
+  border-radius: 30rpx;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  /* 使子元素绝对定位相对于此元素 */
+}
+.imageSelectorClass image.data-v-4c51e7d3 {
+  width: 100%;
+  /* 占满父元素 */
+  height: 100%;
+  /* 占满父元素 */
+  position: absolute;
+  /* 绝对定位 */
+  top: 0;
+  /* 顶部对齐 */
+  left: 0;
+  /* 左侧对齐 */
+}
+.border-none.data-v-4c51e7d3 {
+  border: none;
+  /* 去掉所有边框 */
+}
+/* From Uiverse.io by ilkhoeri */
+.button.data-v-4c51e7d3 {
+  --h-button: 48px;
+  --w-button: 200px;
+  --round: 0.75rem;
+  margin-top: 30px;
+  cursor: pointer;
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  transition: all 0.25s ease;
+  background: radial-gradient(65.28% 65.28% at 50% 100%, rgba(223, 113, 255, 0.8) 0%, rgba(223, 113, 255, 0) 100%), linear-gradient(0deg, #7a5af8, #7a5af8);
+  border-radius: var(--round);
+  border: none;
+  outline: none;
+  padding: 12px 50px;
+}
+.button.data-v-4c51e7d3::before,
+.button.data-v-4c51e7d3::after {
+  content: "";
+  position: absolute;
+  inset: var(--space);
+  transition: all 0.5s ease-in-out;
+  border-radius: calc(var(--round) - var(--space));
+  z-index: 0;
+}
+.button.data-v-4c51e7d3::before {
+  --space: 1px;
+  background: linear-gradient(177.95deg, rgba(255, 255, 255, 0.19) 0%, rgba(255, 255, 255, 0) 100%);
+}
+.button.data-v-4c51e7d3::after {
+  --space: 2px;
+  background: radial-gradient(65.28% 65.28% at 50% 100%, rgba(223, 113, 255, 0.8) 0%, rgba(223, 113, 255, 0) 100%), linear-gradient(0deg, #7a5af8, #7a5af8);
+}
+.button.data-v-4c51e7d3:active {
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}
+.fold.data-v-4c51e7d3 {
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 1rem;
+  width: 1rem;
+  display: inline-block;
+  transition: all 0.5s ease-in-out;
+  background: radial-gradient(100% 75% at 55%, rgba(223, 113, 255, 0.8) 0%, rgba(223, 113, 255, 0) 100%);
+  box-shadow: 0 0 3px black;
+  border-bottom-left-radius: 0.5rem;
+  border-top-right-radius: var(--round);
+}
+.fold.data-v-4c51e7d3::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 150%;
+  height: 150%;
+  -webkit-transform: rotate(45deg) translateX(0%) translateY(-18px);
+          transform: rotate(45deg) translateX(0%) translateY(-18px);
+  background-color: #e8e8e8;
+  pointer-events: none;
+}
+.button:hover .fold.data-v-4c51e7d3 {
+  margin-top: -1rem;
+  margin-right: -1rem;
+}
+.points_wrapper.data-v-4c51e7d3 {
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  position: absolute;
+  z-index: 1;
+}
+.points_wrapper .point.data-v-4c51e7d3 {
+  bottom: -10px;
+  position: absolute;
+  -webkit-animation: floating-points-data-v-4c51e7d3 infinite ease-in-out;
+          animation: floating-points-data-v-4c51e7d3 infinite ease-in-out;
+  pointer-events: none;
+  width: 2px;
+  height: 2px;
+  background-color: #fff;
+  border-radius: 9999px;
+}
+@-webkit-keyframes floating-points-data-v-4c51e7d3 {
+0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+}
+85% {
+    opacity: 0;
+}
+100% {
+    -webkit-transform: translateY(-55px);
+            transform: translateY(-55px);
+    opacity: 0;
+}
+}
+@keyframes floating-points-data-v-4c51e7d3 {
+0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+}
+85% {
+    opacity: 0;
+}
+100% {
+    -webkit-transform: translateY(-55px);
+            transform: translateY(-55px);
+    opacity: 0;
+}
+}
+.points_wrapper .point.data-v-4c51e7d3:nth-child(1) {
+  left: 10%;
+  opacity: 1;
+  -webkit-animation-duration: 2.35s;
+          animation-duration: 2.35s;
+  -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s;
+}
+.points_wrapper .point.data-v-4c51e7d3:nth-child(2) {
+  left: 30%;
+  opacity: 0.7;
+  -webkit-animation-duration: 2.5s;
+          animation-duration: 2.5s;
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+}
+.points_wrapper .point.data-v-4c51e7d3:nth-child(3) {
+  left: 25%;
+  opacity: 0.8;
+  -webkit-animation-duration: 2.2s;
+          animation-duration: 2.2s;
+  -webkit-animation-delay: 0.1s;
+          animation-delay: 0.1s;
+}
+.points_wrapper .point.data-v-4c51e7d3:nth-child(4) {
+  left: 44%;
+  opacity: 0.6;
+  -webkit-animation-duration: 2.05s;
+          animation-duration: 2.05s;
+}
+.points_wrapper .point.data-v-4c51e7d3:nth-child(5) {
+  left: 50%;
+  opacity: 1;
+  -webkit-animation-duration: 1.9s;
+          animation-duration: 1.9s;
+}
+.points_wrapper .point.data-v-4c51e7d3:nth-child(6) {
+  left: 75%;
+  opacity: 0.5;
+  -webkit-animation-duration: 1.5s;
+          animation-duration: 1.5s;
+  -webkit-animation-delay: 1.5s;
+          animation-delay: 1.5s;
+}
+.points_wrapper .point.data-v-4c51e7d3:nth-child(7) {
+  left: 88%;
+  opacity: 0.9;
+  -webkit-animation-duration: 2.2s;
+          animation-duration: 2.2s;
+  -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s;
+}
+.points_wrapper .point.data-v-4c51e7d3:nth-child(8) {
+  left: 58%;
+  opacity: 0.8;
+  -webkit-animation-duration: 2.25s;
+          animation-duration: 2.25s;
+  -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s;
+}
+.points_wrapper .point.data-v-4c51e7d3:nth-child(9) {
+  left: 98%;
+  opacity: 0.6;
+  -webkit-animation-duration: 2.6s;
+          animation-duration: 2.6s;
+  -webkit-animation-delay: 0.1s;
+          animation-delay: 0.1s;
+}
+.points_wrapper .point.data-v-4c51e7d3:nth-child(10) {
+  left: 65%;
+  opacity: 1;
+  -webkit-animation-duration: 2.5s;
+          animation-duration: 2.5s;
+  -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s;
+}
+.inner.data-v-4c51e7d3 {
+  z-index: 2;
+  gap: 6px;
+  position: relative;
+  width: 100%;
+  color: white;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  transition: color 0.2s ease-in-out;
+}
+.inner image.icon.data-v-4c51e7d3 {
+  width: 18px;
+  height: 18px;
+  transition: fill 0.1s linear;
+}
+.button:focus image.icon.data-v-4c51e7d3 {
+  fill: white;
+}
+.button:hover image.icon.data-v-4c51e7d3 {
+  fill: transparent;
+  -webkit-animation: dasharray-data-v-4c51e7d3 1s linear forwards,filled-data-v-4c51e7d3 0.1s linear forwards 0.95s;
+          animation: dasharray-data-v-4c51e7d3 1s linear forwards,filled-data-v-4c51e7d3 0.1s linear forwards 0.95s;
+}
+@-webkit-keyframes dasharray-data-v-4c51e7d3 {
+from {
+    stroke-dasharray: 0 0 0 0;
+}
+to {
+    stroke-dasharray: 68 68 0 0;
+}
+}
+@keyframes dasharray-data-v-4c51e7d3 {
+from {
+    stroke-dasharray: 0 0 0 0;
+}
+to {
+    stroke-dasharray: 68 68 0 0;
+}
+}
+@-webkit-keyframes filled-data-v-4c51e7d3 {
+to {
+    fill: white;
+}
+}
+@keyframes filled-data-v-4c51e7d3 {
+to {
+    fill: white;
+}
+}
+

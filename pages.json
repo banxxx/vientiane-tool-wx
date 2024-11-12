@@ -1,0 +1,45 @@
+{
+	"easycom": {
+		"^tn-(.*)": "@/tuniao-ui/components/tn-$1/tn-$1.vue"
+	},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "page/index/index",
+			"style": {
+				"navigationBarTitleText": "万象工具Pro"
+			}
+		}
+	],
+	"subPackages": [
+		{
+			"root": "tools",
+			"pages": [
+				{
+					"path": "image/photo_compression",
+					"style": {
+						"navigationBarTitleText": "图片压缩"
+					}
+				}
+			]
+		},
+		{
+			"root": "tools",
+			"pages": [
+				{
+					"path": "image/wallpaper",
+					"style": {
+						"navigationBarTitleText": "每日壁纸"
+					}
+				}
+			]
+		}
+	],
+	"globalStyle": {
+		"navigationStyle": "custom",
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "万象工具Pro",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {}
+}
